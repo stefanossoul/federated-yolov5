@@ -1,0 +1,22 @@
+================================================================================
+MODEL COMPLEXITY REPORT - Client 4
+================================================================================
+
+PARAMETERS:
+  Total Parameters:       1.87 M
+  Trainable Parameters:   1,872,157
+  Non-trainable Params:   0
+
+COMPUTATIONAL COMPLEXITY:
+  FLOPs:                  2.282 G
+  MACs:                   1.141 G
+
+MODEL SIZE:
+  Memory (actual):        7.18 MB
+  Size (FP32):            7.14 MB
+  Size (FP16):            3.57 MB
+
+EFFICIENCY:
+  FLOPs per Parameter:    1218.91
+
+================================================================================

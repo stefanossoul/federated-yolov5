@@ -1,0 +1,26 @@
+# Core
+torch==1.13.1
+torchvision==0.14.1
+flwr==1.5.0
+
+# Data / numerics
+numpy>=1.23,<2.0
+pandas>=1.5
+pyyaml>=6.0
+
+# Plotting
+matplotlib>=3.6
+seaborn>=0.12
+
+# Metrics and profiling
+thop>=0.1.1          # FLOPs / MACs counting
+psutil>=5.9          # CPU and system memory
+nvidia-ml-py3>=7.352 # GPU utilisation, temperature, power draw (optional)
+
+# Utilities
+tqdm>=4.64
+
+# YOLOv5 itself is used as a source checkout, not a pip package.
+# See the Setup section of the README:
+#   git clone https://github.com/ultralytics/yolov5
+#   pip install -r yolov5/requirements.txt
