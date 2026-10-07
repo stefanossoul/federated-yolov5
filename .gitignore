@@ -1,0 +1,30 @@
+# Datasets and weights — never commit these
+datasets/
+yolov5/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Run artifacts
+runs/
+results/client_*/
+results/server/
+*.log
+server.log
+client.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
